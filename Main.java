@@ -2,7 +2,7 @@ package ex01;
 import java.util.Scanner;
 
 class Browser{
-	static String[] array;
+	private static String[] array;
 //	static String[] arraynew;
 			
 	Browser(){
