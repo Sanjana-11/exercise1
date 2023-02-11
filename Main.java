@@ -6,7 +6,7 @@ import java.util.List;
 
 class Browser{
 	private static String[] array;
-	List list1 = new ArrayList();
+	List<String> list1 = new ArrayList();
 			
 	Browser(){
 		
@@ -31,7 +31,7 @@ class Browser{
 		return array;
 	}
 	
-	void add(List list, String str) {
+	void add(List<String> list, String str) {
 		list1.addAll(list);
 		list1.add(str);
 		System.out.println(list1);
@@ -74,7 +74,7 @@ class Main{
 			System.out.println(getmozilla[i]);
 		}
 		
-		List list = Arrays.asList(arr);   
+		List<String> list = Arrays.asList(arr);   
 		
 		Scanner s = new Scanner(System.in); 
 		String str= s.nextLine();
